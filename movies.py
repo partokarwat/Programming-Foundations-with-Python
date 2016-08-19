@@ -11,3 +11,6 @@ ratatouille = media.Movie("Ratatouille", "A rat is a chef in Paris",
 
 movies = [avatar, ratatouille]
 fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
